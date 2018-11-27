@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Theory Proyect</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+    <div class="container z-depth-1" style="height: 500px">
+        <nav class="nav-extended" style="margin: 5px 0px 0px 0px;">
+            <div class="nav-wrapper">
+                <a href="#" class="center brand-logo">Theory Proyect</a>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a class="active" href="#test1">Email</a></li>
+                    <li class="tab"><a href="#test2">Phone</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="test1" class="col s12">
+            <div class="input-field col s6 m6 l6" margin="10px">
+                <i class="material-icons prefix">phone</i>
+                <input id="email" type="text" class="validate">
+                <label for="phone">Email</label>
+            </div>
+        </div>
+        <div id="test2" class="col s12">
+            <div class="input-field col s6 m6 l6" margin="10px">
+                <i class="material-icons prefix">phone</i>
+                <input id="phone" type="text" class="validate">
+                <label for="phone">Phone</label>
+            </div>
+        </div>
+        <div class="col s12 z-depth-1" style="display:none;" id="valido">
+        </div>
+        <div class="col s12 z-depth-1" style="display:none;" id="invalido">
+        </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</body>
+
+</html>
