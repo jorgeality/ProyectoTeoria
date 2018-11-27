@@ -12,7 +12,7 @@ expresiones regulares usadas:
    
  * /^\+\d{2,3}\s\d{7,10}$/    :
    
-   esta expresion valida que el numero de telefono digitado cumpla con las siguiente sintaxis : +indicativo numero_de_7_a_10_numero
+   esta expresion valida que el numero de telefono digitado cumpla con las siguiente sintaxis : +indicativo espacio numero_de_7_a_10_numero
 
 presentado por: 
 * jorge martinez
